@@ -1,0 +1,12 @@
+{
+  "name": "mobilewright-demo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "codeceptjs run --steps"
+  },
+  "devDependencies": {
+    "codeceptjs": "^4.2.0"
+  }
+}
