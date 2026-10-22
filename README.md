@@ -1,6 +1,6 @@
 # @codeceptjs/mobilewright
 
-> Experimental. Try it and [report issues](https://github.com/codeceptjs/mobilewright/issues).
+> Experimental. Try it and [report issues](https://github.com/codeceptjs/mobilewright-helper/issues).
 
 [CodeceptJS](https://codecept.io) helper for testing iOS and Android apps with [mobilewright](https://mobilewright.dev). It runs on simulators, emulators and real devices without an Appium server.
 
@@ -109,6 +109,10 @@ Appium contexts and web views, settings, network connection, activities, touch a
 ## Telemetry
 
 The mobilewright library sends no telemetry; only its own CLI does. The helper still sets `MOBILEWRIGHT_DISABLE_TELEMETRY=1` so the mobilecli server it starts inherits it.
+
+## Demo
+
+A runnable demo project lives in [demo/](./demo): CodeceptJS tests for the Sauce Labs My Demo App (React Native), ready to run on a booted Android emulator. See [demo/README.md](./demo/README.md).
 
 ## Development
 

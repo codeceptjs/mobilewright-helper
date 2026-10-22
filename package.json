@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codeceptjs/mobilewright.git"
+    "url": "git+https://github.com/codeceptjs/mobilewright-helper.git"
   },
   "keywords": [
     "codeceptjs",
